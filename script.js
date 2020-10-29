@@ -23,6 +23,9 @@ function setTheme(mode){
     if(mode == 'yellow'){
         document.getElementById('theme-style').href='yellow.css'
     }
+    if(mode == 'black'){
+        document.getElementById('theme-style').href='black.css'
+    }
     localStorage.setItem('theme',mode)
     
 }
